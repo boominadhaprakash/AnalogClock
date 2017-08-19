@@ -3,4 +3,4 @@ This Project has been development in Xcode 8.2.1 and Swift v3.0. I have referred
 But the code available in that link is in Objective-C and also for Mac Programming. So, I tried to convert it for Swift v3.0.
 
 
-![ScreenShot](https://github.com/boominadhaprakash/AnalogClock/blob/master/AnalogClock/clock.png "Sample Screenshot")
+![Alt text](https://github.com/boominadhaprakash/AnalogClock/blob/master/AnalogClock/clock.png "Sample Screenshot")
