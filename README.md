@@ -8,7 +8,7 @@ But the code available in that link is in Objective-C and also for Mac Programmi
 # Drag and drop the Source folder into your project.
 
 ## Programmatic way
-   ### Setting width and height to Full Screen
+   #### Setting width and height to Full Screen
 	 var clockView: AnalogClockView {
    		let view = AnalogClockView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
    		view.center = self.view.center
@@ -16,7 +16,7 @@ But the code available in that link is in Objective-C and also for Mac Programmi
    	}
    	self.view.addSubview(clockView)
 		
-   ### Custom width and height
+   #### Custom width and height
    	var clockView: AnalogClockView {
         let view = AnalogClockView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
         view.center = self.view.center
