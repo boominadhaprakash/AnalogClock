@@ -13,6 +13,7 @@
 		1089D8E61F46EBD800105D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1089D8E51F46EBD800105D86 /* Assets.xcassets */; };
 		1089D8E91F46EBD800105D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1089D8E71F46EBD800105D86 /* LaunchScreen.storyboard */; };
 		1089D8F31F46FCF200105D86 /* ClockFace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1089D8F21F46FCF200105D86 /* ClockFace.jpg */; };
+		4C2C13962256F28300503F81 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2C13952256F28300503F81 /* Date+Extension.swift */; };
 		D65EC4032256471A000D01B6 /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65EC4022256471A000D01B6 /* AnalogClockView.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		1089D8E81F46EBD800105D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1089D8EA1F46EBD800105D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1089D8F21F46FCF200105D86 /* ClockFace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ClockFace.jpg; sourceTree = SOURCE_ROOT; };
+		4C2C13952256F28300503F81 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		D65EC4022256471A000D01B6 /* AnalogClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		1089D8DD1F46EBD800105D86 /* AnalogClock */ = {
 			isa = PBXGroup;
 			children = (
+				4C2C13942256F26E00503F81 /* Extension */,
 				1089D8DE1F46EBD800105D86 /* AppDelegate.swift */,
 				1089D8E01F46EBD800105D86 /* ViewController.swift */,
 				D65EC4022256471A000D01B6 /* AnalogClockView.swift */,
@@ -68,6 +71,14 @@
 				1089D8F21F46FCF200105D86 /* ClockFace.jpg */,
 			);
 			path = AnalogClock;
+			sourceTree = "<group>";
+		};
+		4C2C13942256F26E00503F81 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C2C13952256F28300503F81 /* Date+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D65EC4032256471A000D01B6 /* AnalogClockView.swift in Sources */,
+				4C2C13962256F28300503F81 /* Date+Extension.swift in Sources */,
 				1089D8E11F46EBD800105D86 /* ViewController.swift in Sources */,
 				1089D8DF1F46EBD800105D86 /* AppDelegate.swift in Sources */,
 			);

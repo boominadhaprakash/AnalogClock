@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    lazy var clockView: AnalogClockView = {
+    var clockView: AnalogClockView {
         let view = AnalogClockView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
         view.center = self.view.center
         return view
-    }()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
