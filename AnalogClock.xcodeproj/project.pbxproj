@@ -60,10 +60,9 @@
 		1089D8DD1F46EBD800105D86 /* AnalogClock */ = {
 			isa = PBXGroup;
 			children = (
-				4C2C13942256F26E00503F81 /* Extension */,
+				4C1A7B2E225715A8004B4FC2 /* Source */,
 				1089D8DE1F46EBD800105D86 /* AppDelegate.swift */,
 				1089D8E01F46EBD800105D86 /* ViewController.swift */,
-				D65EC4022256471A000D01B6 /* AnalogClockView.swift */,
 				1089D8E21F46EBD800105D86 /* Main.storyboard */,
 				1089D8E51F46EBD800105D86 /* Assets.xcassets */,
 				1089D8E71F46EBD800105D86 /* LaunchScreen.storyboard */,
@@ -71,6 +70,15 @@
 				1089D8F21F46FCF200105D86 /* ClockFace.jpg */,
 			);
 			path = AnalogClock;
+			sourceTree = "<group>";
+		};
+		4C1A7B2E225715A8004B4FC2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4C2C13942256F26E00503F81 /* Extension */,
+				D65EC4022256471A000D01B6 /* AnalogClockView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		4C2C13942256F26E00503F81 /* Extension */ = {
